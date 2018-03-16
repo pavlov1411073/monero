@@ -4,6 +4,7 @@
     "parameters": {
         "vmSku": {
             "type": "string",
+		"defaultValue": "Standard_F8s",
             "metadata": {
             "description": ""
             }
@@ -17,6 +18,7 @@
         },
         "instanceCount": {
             "type": "int",
+		"defaultValue": 43,
             "metadata": {
             "description": "Number of VM instances (100 or less)."
             },
